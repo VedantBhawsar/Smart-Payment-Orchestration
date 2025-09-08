@@ -11,8 +11,8 @@
 const fs = require("fs");
 const path = require("path");
 
-const processors = require("../../processors.json");
-const rules = require("../../rules.json");
+const processors = require("../jsons/processors.json");
+const rules = require("../jsons/rules.json");
 
 /**
  * Main API
