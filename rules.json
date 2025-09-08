@@ -1,0 +1,14 @@
+{
+  "rule_thresholds": {
+    "min_relative_savings_to_switch": 0.02,
+    "min_success_rate": 0.90
+  },
+  "scoring_weights": {
+    "fee_weight": 10,
+    "settlement_weight": 4,
+    "risk_weight": 6,
+    "switch_bonus": 1.5,
+    "instant_payout_bonus": 1.0,
+    "slow_settlement_penalty": 2.0
+  }
+}

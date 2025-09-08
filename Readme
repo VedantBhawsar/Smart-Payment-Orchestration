@@ -1,0 +1,8 @@
+# Smart Payment Orchestration
+Below you'll find a complete, original project that implements a rule-based payment orchestration mechanism whose goal is to optimize cash flow and reduce per-transaction Stripe fees (target: ~5.8% reduction of fee costs relative) by routing transactions to the best payment rail based on configurable rules (fee, settlement speed, risk, customer preference, etc.). The deliverables:
+design & rationale (why rules chosen, tradeoffs)
+Node.js/Express microservice (decision engine + API)
+rules JSON with examples
+lightweight simulator (Python) to measure fee savings across many transactions
+DB schema / ledger guidelines and deployment notes
+alternatives & extensions.

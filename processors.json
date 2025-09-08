@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Stripe",
+    "fee_percentage": 0.02,
+    "fee_flat_cents": 30,
+    "settlement_time_days": 2,
+    "success_rate": 0.98,
+    "supports_card": true,
+    "supports_ach": true,
+    "instant_payout": false
+  },
+  {
+    "name": "LocalProcessorA",
+    "fee_percentage": 0.025,
+    "fee_flat_cents": 25,
+    "settlement_time_days": 1,
+    "success_rate": 0.965,
+    "supports_card": true,
+    "supports_ach": false,
+    "instant_payout": false
+  },
+  {
+    "name": "FastPayout",
+    "fee_percentage": 0.034,
+    "fee_flat_cents": 10,
+    "settlement_time_days": 0,
+    "success_rate": 0.96,
+    "supports_card": true,
+    "supports_ach": false,
+    "instant_payout": true
+  },
+  {
+    "name": "ACHProvider",
+    "fee_percentage": 0.008,
+    "fee_flat_cents": 25,
+    "settlement_time_days": 3,
+    "success_rate": 0.99,
+    "supports_card": false,
+    "supports_ach": true,
+    "instant_payout": false
+  }
+]
